@@ -1,0 +1,22 @@
+body {
+    margin: 20px 20px 20px 20px;
+    color: rgb(87, 87, 131);
+}
+
+.btn {
+    background-color:rgb(87, 87, 131);
+}
+
+.card-header-title {
+    color: rgb(87, 87, 131);
+}
+.card-content {
+    margin: auto;
+    background-color: rgb(190, 146, 190);
+    align-content: flex-end;
+}
+
+p {
+    color: rgb(87, 87, 131);
+}
+
