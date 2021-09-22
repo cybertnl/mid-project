@@ -6,13 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-    <title>Daily Horoscopes</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Your Horoscope</title>
 </head>
 <body>
-    <header class="content row">
-        <h1 class="is-centered">Your Horoscope for:<span id="today"></span></h1>
-        <button class="is-darker-grey pagination-previous is-centered">BACK</button>
-    </header>
+    <section class="content columns">
+        <div class="container is-inline-flex">
+            <h1 class="mgt-large">Your Horoscope for:<span id="today"></span></h1>
+            <button class="btn">BACK</button>
+        </div>
+    </section>
     <div class="row">
         <div class="card">
             <div class="card-header">
@@ -99,5 +102,6 @@
             <div class="card-content" id="horoscope"></div>
         </div>
     </div>
+    <footer class="inline-flex" id="kanye"></footer>
 </body>
 </html>
