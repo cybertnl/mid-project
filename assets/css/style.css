@@ -16,11 +16,13 @@ body {
     align-content: flex-end;
 }
 
-p {
+/* this is taking precedence over all <p> styling
+/* p {
     color: rgb(87, 87, 131);
-}
+} */
 
-footer{
+footer {
     background-color: rgb(87, 87, 131);
     color: rgb(190, 146, 190);
 }
+
