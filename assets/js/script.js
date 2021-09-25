@@ -1,50 +1,21 @@
 
-const url = 'https://api.nasa.gov/planetary/apod?';
-const apiKey = 'api_key=S7ZuI8REtnvDQNKwQFpNcnZM3djWURASMZ18f9EQ';
+const urlKanye = "https://api.kanye.rest";
 
 var requestOptions = {
-  method: 'GET',
-  redirect: 'follow'
-};
+    method: 'GET',
+    redirect: 'follow'
+  };
 
-fetch(url + apiKey, requestOptions)
+fetch(urlKanye, requestOptions)
   .then(response => response.json())
-  .then(handleData)
+  .then(kanyeQuote)
   .catch(error => console.log('error', error));
 
-function handleData(data) {
-
-// if else statement to determine if the daily APOD is a picture or video
-    if (data.media_type === "video") {
-    
-        handleVideo(data);
-    
-    } else {
-
-        handleImg(data)
-
-    }
+function kanyeQuote (quoteData) {
+    console.log(quoteData)
+    const quoteContainer = document.getElementById("kanye");
+    const quote = document.createElement("p");
+    quote.innerHTML = quoteData.quote;
+    console.log("this is quote", quote);
+    quoteContainer.appendChild(quote);
 };
-
-// function to display img
-function handleImg(imgData) {
-  console.log(imgData);
-  const imgContainer = document.getElementById("response-imgContainer");
-  const img = document.createElement('img');
-  img.height=315;
-  img.width=420;
-  img.src=imgData.url
-
-  imgContainer.appendChild(img);
-}
-
-// function to display video
-function handleVideo(videoData) {
-  const videoContainer = document.getElementById("response-videoContainer");
-  const ytFrame = document.createElement("iframe");
-  ytFrame.height=315;
-  ytFrame.width=420;
-  ytFrame.src=videoData.url;
-
-  videoContainer.appendChild(ytFrame);
-}
