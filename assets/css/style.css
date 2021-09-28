@@ -17,6 +17,55 @@ body {
     align-content: flex-end;
 }
 
+.ai {
+    font-style:normal;
+    color:purple;
+    font-weight:bold;
+    font: size 20px;
+    line-height:20px;
+}
+.ai.aries,.ai.taurus,.ai.gemini,.ai.cancer,.ai.leo,.ai.virgo,.ai.libra,.ai.scorpio,.ai.sagittarius,.ai.capricorn,.ai.aquarius,.ai.pisces {
+    font-weight:normal;
+}
+.ai.aries::before {
+    content:"\2648";
+  display:inline;
+  text-decoration:none;
+}
+.ai.taurus::before {
+    content:"\2649";
+}
+.ai.gemini::before {
+    content:"\264A";
+}
+.ai.cancer::before {
+    content:"\264B";
+}
+.ai.leo::before {
+    content:"\264C";
+}
+.ai.virgo::before {
+    content:"\264D";
+}
+.ai.libra::before {
+    content:"\264E";
+}
+.ai.scorpio::before {
+    content:"\264F";
+}
+.ai.sagittarius::before{
+    content:"\2650";
+}
+.ai.capricorn::before {
+    content:"\2651";
+}
+.ai.aquarius::before {
+    content:"\2652";
+}
+.ai.pisces::before{
+    content:"\2653";
+}
+
 /* this is taking precedence over all <p> styling
 /* p {
     color: rgb(87, 87, 131);
