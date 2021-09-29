@@ -1,7 +1,10 @@
 body {
-    margin: 20px 20px 20px 20px;
+    margin: 0 20px;
     color: rgb(87, 87, 131);
-    background-image: url("starrynight.jpeg");
+    background-image: url("../images/starrynight.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
 
 .btn {
@@ -14,7 +17,14 @@ body {
 .card-content {
     margin: auto;
     background-color: rgb(190, 146, 190);
-    align-content: flex-end;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    
+}
+
+.card-content-compatibilty {
+    margin-top: auto !important; 
 }
 
 .ai {
@@ -65,11 +75,6 @@ body {
 .ai.pisces::before{
     content:"\2653";
 }
-
-/* this is taking precedence over all <p> styling
-/* p {
-    color: rgb(87, 87, 131);
-} */
 
 footer {
     background-color: rgb(87, 87, 131);

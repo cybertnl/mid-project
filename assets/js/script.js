@@ -19,3 +19,4 @@ function kanyeQuote (quoteData) {
     console.log("this is quote", quote);
     quoteContainer.appendChild(quote);
 };
+
