@@ -27,6 +27,9 @@ body {
 .name {
 background-color: rgb(190, 146, 190);
 }
+.date {
+ background-color: rgb(87, 87, 131);
+}
 .ai.aries,.ai.taurus,.ai.gemini,.ai.cancer,.ai.leo,.ai.virgo,.ai.libra,.ai.scorpio,.ai.sagittarius,.ai.capricorn,.ai.aquarius,.ai.pisces {
     font-weight:normal;
 }
