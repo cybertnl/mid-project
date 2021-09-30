@@ -8,11 +8,6 @@ html {
     margin: 20px 20px 20px 20px;
 }
 
-.nasa-img h2 {
-    text-align: center;
-    color: antiquewhite;
-}
-
 .button {
     font: bold 11px Arial;
     text-decoration: none;
@@ -22,6 +17,11 @@ html {
 
 .form {
     padding-top: 20px;
+    color: antiquewhite;
+}
+
+.nasa-img h2 {
+    text-align: center;
     color: antiquewhite;
 }
 
@@ -43,6 +43,22 @@ html {
 
 .card-content-compatibilty {
     margin-top: auto !important; 
+}
+
+#kanye {
+    text-align: center;
+}
+
+#response-videoContainer {
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+}
+
+#response-imgContainer {
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
 }
 
 .ai {
