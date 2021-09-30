@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Daily Horoscope Generator</title>
+</head>
+<body class="main">
+    <div class="content row">
+            <form class="columns is-centered form">
+                <label>Name:</label>
+                <input type="text" id="input-name" text="name" value="name"/>
+                <label>Email:</label>
+                <input type="text" id="input-email" text="email" value="email"/>
+                <label>Date Of Birth:</label>
+                <input type="date">
+                <a href="./index.html" class="button">Submit</a>
+            </form>
+        <div class="nasa-img">
+            <h2>Astronomy Picture of the Day</h2>
+
+            <div id="response-videoContainer">
+            </div>
+
+            <div id="response-imgContainer">
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/js/mainpage.js"></script>
+    
+</body>
+</html>

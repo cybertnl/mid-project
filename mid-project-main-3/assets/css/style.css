@@ -1,0 +1,119 @@
+body {
+    margin: 0 20px;
+    color: rgb(87, 87, 131);
+}
+
+.main {
+    background-image: url("../images/starrynight.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.button {
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color:rgb(87, 87, 131);
+    padding: auto 6px;
+}
+
+.form {
+    padding-top: 20px;
+    color: antiquewhite;
+}
+
+.nasa-img h2 {
+    text-align: center;
+    color: antiquewhite;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+.card-header-title {
+    color: rgb(87, 87, 131);
+}
+.card-content {
+    margin: auto;
+    background-color: rgb(190, 146, 190);
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    
+}
+
+.card-content-compatibilty {
+    margin-top: auto !important; 
+}
+
+#kanye {
+    text-align: center;
+}
+
+#response-videoContainer {
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+}
+
+#response-imgContainer {
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+}
+
+.ai {
+    font-style:normal;
+    color:purple;
+    font-weight:bold;
+    font: size 20px;
+    line-height:20px;
+}
+.ai.aries,.ai.taurus,.ai.gemini,.ai.cancer,.ai.leo,.ai.virgo,.ai.libra,.ai.scorpio,.ai.sagittarius,.ai.capricorn,.ai.aquarius,.ai.pisces {
+    font-weight:normal;
+}
+.ai.aries::before {
+    content:"\2648";
+  display:inline;
+  text-decoration:none;
+}
+.ai.taurus::before {
+    content:"\2649";
+}
+.ai.gemini::before {
+    content:"\264A";
+}
+.ai.cancer::before {
+    content:"\264B";
+}
+.ai.leo::before {
+    content:"\264C";
+}
+.ai.virgo::before {
+    content:"\264D";
+}
+.ai.libra::before {
+    content:"\264E";
+}
+.ai.scorpio::before {
+    content:"\264F";
+}
+.ai.sagittarius::before{
+    content:"\2650";
+}
+.ai.capricorn::before {
+    content:"\2651";
+}
+.ai.aquarius::before {
+    content:"\2652";
+}
+.ai.pisces::before{
+    content:"\2653";
+}
+
+footer {
+    background-color: rgb(87, 87, 131);
+    color: rgb(190, 146, 190);
+}
+
