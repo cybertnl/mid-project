@@ -14,13 +14,13 @@ function getSignData(signNode) {
         .then(response => response.json())
         .then(result => {
             signNode.innerHTML = "<p>" + result.description + "</p><div class='card-content-compatibilty'><p> Compatibility: " + result.compatibility + "</p></div>"
-            console.log(result)
+            // console.log(result)
         })
         .catch(error => console.log('error', error));
 }
 
 var signs = document.getElementsByClassName("card-content")
-console.log(signs[0].id)
+// console.log(signs[0].id)
 
 for (let i = 0; i < signs.length; i++){
     getSignData(signs[i]);

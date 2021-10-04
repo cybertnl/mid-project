@@ -52,3 +52,18 @@ function handleVideo(videoData) {
   videoContainer.appendChild(ytFrame);
 }
 
+// local storage
+
+var nameInput = document.querySelector('#userName');
+var submitButton = document.querySelector('#btn');
+
+submitButton.addEventListener('click', function(event) {
+
+  var userName = document.querySelector('#userName').value;
+
+  localStorage.setItem('userName', userName);
+
+});
+
+
+

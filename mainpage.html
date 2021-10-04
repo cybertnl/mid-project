@@ -9,17 +9,20 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Daily Horoscope Generator</title>
 </head>
+
 <body class="main">
     <div class="content row">
-            <form class="columns is-centered form">
-                <label>Name:</label>
-                <input type="text" id="input-name" text="name" value="name"/>
-                <label>Email:</label>
-                <input type="text" id="input-email" text="email" value="email"/>
-                <label>Date Of Birth:</label>
-                <input type="date">
-                <a href="./index.html" class="button">Submit</a>
-            </form>
+        <form class="columns is-centered form" method="POST" action="./index.html">
+            <label>Name:</label>
+            <input type="text" id="userName" text="name" placeholder="name"/>
+            <label>Email:</label>
+            <input type="text" id="userEmail" text="email" placeholder="email"/>
+            <label>Date Of Birth:</label>
+            <input type="date">
+            <button id="btn" class="button">Submit</button>
+            
+        </form>
+            
         <div class="nasa-img">
             <h2>Astronomy Picture of the Day</h2>
 
@@ -29,7 +32,9 @@
             <div id="response-imgContainer">
             </div>
         </div>
+
     </div>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="./assets/js/mainpage.js"></script>
     

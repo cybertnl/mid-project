@@ -12,11 +12,16 @@ fetch(urlKanye, requestOptions)
   .catch(error => console.log('error', error));
 
 function kanyeQuote (quoteData) {
-    console.log(quoteData)
+    // console.log(quoteData)
     const quoteContainer = document.getElementById("kanye");
     const quote = document.createElement("p");
     quote.innerHTML = quoteData.quote;
-    console.log("this is quote", quote);
+    // console.log("this is quote", quote);
     quoteContainer.appendChild(quote);
 };
+
+window.onload = function(){
+  document.getElementById('displayName').innerText = localStorage.getItem('userName')
+}
+
 
