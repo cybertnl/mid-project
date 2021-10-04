@@ -12,3 +12,8 @@ is some added features like an astronmy picture of the day to show off our group
 # Visuals 
 
 
+<img width="1372" alt="Screen Shot 2021-10-03 at 8 34 02 PM" src="https://user-images.githubusercontent.com/87836575/135789060-2da0a583-b7eb-440b-b7ec-fac378a7aa4d.png">
+<img width="1380" alt="Screen Shot 2021-10-03 at 8 33 23 PM" src="https://user-images.githubusercontent.com/87836575/135789064-98b3faca-35db-4b14-a680-c68a1f935811.png">
+
+## Live URL
+cybertnl.github.io/mid-project
